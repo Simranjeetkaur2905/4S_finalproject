@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a4s_finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tipsandsuggestions"></activity>
+        <activity android:name=".aboutus" />
+        <activity
+            android:name=".homepagescrolling"
+            android:label="@string/title_activity_homepagescrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".sodapopactivity" />
+        <activity android:name=".sizeactivity" />
+        <activity android:name=".WingsList" />
+        <activity android:name=".pastaactivity" />
+        <activity android:name=".calzoneactivity" />
+        <activity android:name=".pizzalist" />
+        <activity android:name=".homepage" />
+        <activity android:name=".registration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
