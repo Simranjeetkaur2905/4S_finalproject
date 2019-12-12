@@ -104,30 +104,30 @@ public class homepagescrolling extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                Intent intent = new Intent(this, MainActivity.class);
-                this.startActivity(intent);
-                finish();
-                break;
-            case R.id.Aboutus:
-
-                Intent intent1 = new Intent(getApplicationContext(), aboutus.class);
-                startActivity(intent1);
-                break;
-            case R.id.tips:
-                Intent intent2 = new Intent(getApplicationContext(), tipsandsuggestions.class);
-                startActivity(intent2);
-                break;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-
-
-        return true;
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.action_settings:
+//                Intent intent = new Intent(this, MainActivity.class);
+//                this.startActivity(intent);
+//                finish();
+//                break;
+//            case R.id.Aboutus:
+//
+//                Intent intent1 = new Intent(getApplicationContext(), aboutus.class);
+//                startActivity(intent1);
+//                break;
+//            case R.id.tips:
+//                Intent intent2 = new Intent(getApplicationContext(), tipsandsuggestions.class);
+//                startActivity(intent2);
+//                break;
+//            default:
+//                return super.onOptionsItemSelected(item);
+//        }
+//
+//
+//        return true;
+ //   }
 
 }
 
