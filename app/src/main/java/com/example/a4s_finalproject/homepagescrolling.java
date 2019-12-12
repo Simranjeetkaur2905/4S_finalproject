@@ -21,8 +21,6 @@ public class homepagescrolling extends AppCompatActivity {
     TextView txt_frenchfry;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,15 +102,15 @@ public class homepagescrolling extends AppCompatActivity {
         return true;
     }
 
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        switch (item.getItemId()) {
-//            case R.id.action_settings:
-//                Intent intent = new Intent(this, MainActivity.class);
-//                this.startActivity(intent);
-//                finish();
-//                break;
-//            case R.id.Aboutus:
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                Intent intent = new Intent(this, MainActivity.class);
+                this.startActivity(intent);
+                finish();
+                break;
+            case R.id.Aboutus:
 //
 //                Intent intent1 = new Intent(getApplicationContext(), aboutus.class);
 //                startActivity(intent1);
@@ -123,13 +121,15 @@ public class homepagescrolling extends AppCompatActivity {
 //                break;
 //            default:
 //                return super.onOptionsItemSelected(item);
-//        }
+        }
 //
 //
-//        return true;
- //   }
-
+        return true;
+    }
 }
+
+
+
 
 
 
