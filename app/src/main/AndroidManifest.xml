@@ -15,7 +15,7 @@
         <activity android:name=".aboutus" />
         <activity
             android:name=".homepagescrolling"
-            android:label="@string/title_activity_homepagescrolling"
+            android:label="Food ordering"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".sodapopactivity" />
         <activity android:name=".sizeactivity" />
