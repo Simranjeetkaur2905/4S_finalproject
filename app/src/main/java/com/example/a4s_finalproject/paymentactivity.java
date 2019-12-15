@@ -67,7 +67,7 @@ public class paymentactivity extends AppCompatActivity {
         {
 
             Toast.makeText(this, "Payment successfully completed order will reached as soon as possible", Toast.LENGTH_SHORT).show();
-            Intent intent=new Intent(getApplicationContext(),homepage.class);
+            Intent intent=new Intent(getApplicationContext(),homepagescrolling.class);
             startActivity(intent);
 
         }

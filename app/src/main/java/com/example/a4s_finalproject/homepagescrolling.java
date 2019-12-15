@@ -13,12 +13,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.SearchView;
 import android.widget.TextView;
 
 public class homepagescrolling extends AppCompatActivity {
 
     LinearLayout lyt_Pizza, lyt_calzones, lyt_pasta, lyt_wings, lyt_frechfries, lyt_soda;
     TextView txt_frenchfry;
+   // SearchView searchView;
 
 
 
@@ -43,12 +45,14 @@ public class homepagescrolling extends AppCompatActivity {
         });
 
         lyt_Pizza = (LinearLayout) findViewById(R.id.pizza);
+       // searchView = findViewById(R.id.search);
         lyt_calzones = (LinearLayout) findViewById(R.id.calzone);
         lyt_pasta = (LinearLayout) findViewById(R.id.pasta);
         lyt_wings = (LinearLayout) findViewById(R.id.chickenwings);
         lyt_frechfries = (LinearLayout) findViewById(R.id.frechfries);
         txt_frenchfry = (TextView) findViewById(R.id.frenchfry);
         lyt_soda = (LinearLayout) findViewById(R.id.soda);
+
         lyt_Pizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,6 +109,8 @@ public class homepagescrolling extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 
     @Override

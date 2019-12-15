@@ -116,7 +116,7 @@ public class sizeactivity extends AppCompatActivity {
 
 
 
-        if (name.isEmpty() && mobile.isEmpty() &&   size.isEmpty() && address.isEmpty()) {
+        if (name.isEmpty() && mobile.isEmpty()   && address.isEmpty()) {
             Toast.makeText(getApplicationContext(), "Enter empty fields", Toast.LENGTH_LONG).show();
             return;
         }

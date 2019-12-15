@@ -64,13 +64,28 @@ public class MainActivity extends AppCompatActivity {
 //
         Intent i2 = new Intent(MainActivity.this,homepagescrolling.class);
         startActivity(i2);
+
+
 //                    Intent intent = new Intent(loginactivity.this, homepage.class);
 //                    startActivity(intent);
         }
-//        else if(user == invisibletxt ){
+               else if(user.equals("suman@12") && passwordtext1.equals("suman")) {
+
+                    Toast.makeText(MainActivity.this, "welcome to homescreen " + user, Toast.LENGTH_SHORT).show();
+
 //
-//        Intent i2 = new Intent(MainActivity.this,homepage.class);
-//        startActivity(i2);
+                    Intent i2 = new Intent(MainActivity.this, homepagescrolling.class);
+                    startActivity(i2);
+                }
+
+               else if(user.equals("satveer@12") && passwordtext1.equals("satveer")) {
+
+                    Toast.makeText(MainActivity.this, "welcome to homescreen " + user, Toast.LENGTH_SHORT).show();
+
+//
+                    Intent i2 = new Intent(MainActivity.this, homepagescrolling.class);
+                    startActivity(i2);
+                }
 
 //        }
         else
