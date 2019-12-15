@@ -97,4 +97,12 @@
     Majestys Government with a global covert capability to promote and
     defend the national security and economic well being of the United
     Kingdom.</string>
+
+    <string-array name="Select_size">
+        <item>select size</item>
+        <item>Small </item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
 </resources>
