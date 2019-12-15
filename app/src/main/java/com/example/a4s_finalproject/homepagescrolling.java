@@ -81,10 +81,15 @@ public class homepagescrolling extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String str = txt_frenchfry.getText().toString();
-                Intent intent = new Intent(getApplicationContext(), sizeactivity.class);
-                Bundle extras = new Bundle();
-                extras.putString("PIZZANAME", str);
-                intent.putExtras(extras);
+                Intent intent = new Intent(getApplicationContext(), Bookingactivity.class);
+
+                intent.putExtra("PIZZANAME",str);
+                String price = "20";
+                intent.putExtra("price",price);
+//                Bundle extras = new Bundle();
+//
+//                extras.putString("PIZZANAME", str);
+//                intent.putExtras(extras);
                 startActivity(intent);
             }
         });
